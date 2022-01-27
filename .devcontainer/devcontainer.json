@@ -1,0 +1,20 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/dotnet-mssql
+{
+	"name": "C# (.NET) and Kafka",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspace",
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"omnisharp.useModernNet": true,
+		"omnisharp.useGlobalMono": "never"
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"WakaTime.vscode-wakatime",
+		"ms-vscode.csharp"
+	]
+}

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EE1607E9-7019-40E7-9CE2-CA11E8A1E609}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiConsumerConsumer", "src\MultiConsumerConsumer\MultiConsumerConsumer.csproj", "{ED6E83C4-79A5-41E9-ADE3-A35FDCA2243B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED6E83C4-79A5-41E9-ADE3-A35FDCA2243B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED6E83C4-79A5-41E9-ADE3-A35FDCA2243B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED6E83C4-79A5-41E9-ADE3-A35FDCA2243B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED6E83C4-79A5-41E9-ADE3-A35FDCA2243B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ED6E83C4-79A5-41E9-ADE3-A35FDCA2243B} = {EE1607E9-7019-40E7-9CE2-CA11E8A1E609}
+	EndGlobalSection
+EndGlobal
